@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -105,10 +105,7 @@
 <li><p>2级事件绑定</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">$div1.on(&apos;click&apos;,function ()&#123;</div><div class="line">      console.log(1);</div><div class="line">   &#125;);</div><div class="line">   $div1.on(&apos;click&apos;,function ()&#123;</div><div class="line">      console.log(2);</div><div class="line">   &#125;).on(&apos;click&apos;,function ()&#123;</div><div class="line">       console.log(3);</div><div class="line">   &#125;).on(&apos;click&apos;,function ()&#123;</div><div class="line">       console.log(4);</div><div class="line">   &#125;).trigger(&apos;dblclick&apos;).off(&apos;click&apos;);</div></pre></td></tr></table></figure>
 </li>
-<li><p>ps:</p>
-<blockquote>
-<p>jquery绑定事件是把匿名函数传入当参数了</p>
-</blockquote>
+<li><p>ps:<br>jquery绑定事件是把匿名函数传入当参数了</p>
 </li>
 <li><p>on 绑定事件  同一个事件可以绑定多个函数</p>
 </li>
@@ -122,10 +119,7 @@
 <li>async：要求为Boolean类型的参数，默认设置为true，所有请求均为异步请求.</li>
 <li>cache：要求为Boolean类型的参数，默认为true（当dataType为script时，默认为false）设置为false将不会从浏览器缓存中加载请求信息。</li>
 <li>data: 要求为Object或String类型的参数，发送到服务器的数据。如果已经不是字符串，将自动转换为字符串格式。</li>
-<li>dataType: 要求为String类型的参数，预期服务器返回的数据类型。如果不指定，JQuery将自动根据http包mime信息返回responseXML或responseText，并作为回调函数参数传递。<blockquote>
-<p>可用的类型如下：xml/ html/ script/  json</p>
-</blockquote>
-</li>
+<li>dataType: 要求为String类型的参数，预期服务器返回的数据类型。如果不指定，JQuery将自动根据http包mime信息返回responseXML或responseText，并作为回调函数参数传递。<br>可用的类型如下：xml/ html/ script/  json</li>
 <li><p>ps : jsonp：JSONP格式。使用SONP形式调用函数时，例如myurl?callback=?，JQuery将自动替换后一个 “?”为正确的函数名，以执行回调函数。</p>
 </li>
 <li><p>text：返回纯文本字符串。</p>
@@ -146,7 +140,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/12/14/jQurey/" data-id="ciwod0yty0002o4r6sdhq86sk" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/12/14/jQurey/" data-id="ciwod86zn00026or6xysro1xc" class="article-share-link">Share</a>
       
       
     </footer>
@@ -188,7 +182,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/12/14/angular/" data-id="ciwod0yti0000o4r6i3vks9p2" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/12/14/angular/" data-id="ciwod86yw00016or6akmy2yh5" class="article-share-link">Share</a>
       
       
     </footer>
@@ -233,7 +227,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/12/14/hello-world/" data-id="ciwod0yty0001o4r6czzrg81t" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2016/12/14/hello-world/" data-id="ciwod86yn00006or6kj2flmtl" class="article-share-link">Share</a>
       
       
     </footer>
@@ -268,7 +262,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
@@ -297,7 +291,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2016 John Doe<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
